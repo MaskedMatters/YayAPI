@@ -1,0 +1,27 @@
+{
+  "name": "yayapi",
+  "version": "0.0.1",
+  "description": "The thing called YayAPI which is an API that stores data and does other things and stuff.",
+  "type": "module",
+  "main": "app.mjs",
+  "scripts": {
+    "start": "node app.mjs",
+    "dev": "nodemon app.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaskedMatters/YayAPI.git"
+  },
+  "author": "MaskedMatters | M. West",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MaskedMatters/YayAPI/issues"
+  },
+  "homepage": "https://github.com/MaskedMatters/YayAPI#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
